@@ -1,0 +1,96 @@
+/*CSS for homework 03
+author: Evangeline Baltazar
+*/
+
+
+/*universal tags*/
+body{
+	background-image:url('../images/back.jpg');
+	background-repeat:no-repeat;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+header{
+	text-align:center;
+	position:relative;
+	color:blue;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size:3em;
+}
+
+nav{
+	position: absolute;
+	width: 160px;
+	top: 90px;
+	left: 9px;
+	font-size: 0.9em;
+	padding:0px 2px 0px 0px;
+	z-index: 2;
+	margin-top:3px;
+}
+
+nav ul{
+	padding-left:15px;
+	list-style-type:none;
+}
+
+img{ 
+	width:100px; 
+	height:90px; 
+	display:block;
+}
+
+h1{
+	text-align:center;
+	margin-right:120px;
+}
+
+h2{
+
+}
+
+p{
+	height:400px;
+	text-indent:20px;
+	text-align:justify;
+	margin-bottom: 10px;
+}
+
+footer{
+	position: absolute;
+	width: 150px;
+	top: 95px;
+	right: 9px;
+	font-size: 0.9em;
+	border: 1px dashed black;
+	background-color: #eee;
+	padding: 10px;
+	margin-top:20px;
+	z-index: 1;
+	text-align:center;
+}
+
+/*id tags*/
+
+
+#container{
+	position: relative;
+	width:auto;
+	margin: 10px 198px 10px 178px;
+	border-width:1px 3px 1px 10px;
+	border-style:dashed solid solid ridge;
+	border-color:#470000 #470000 #470000 #A64D4D;
+	background-color: #FFF7EE;
+	padding: 10px;
+	
+	min-height:400px;
+	max-height:500px;
+	overflow:scroll;
+}
+
+/* class tags */
+
+.image_sample{
+	float:right;
+	margin: 80px 80px 0px 0px;
+}

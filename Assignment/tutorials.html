@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Assignment</title>
+		<link rel="stylesheet" type="text/css" href="assignment.css" />
+		<meta charset="UTF-8">
+	</head>
+	
+	<body>
+		<header>COMP 1850 ASSIGNMENTS</header>
+		
+		<nav id="navigation"></nav>
+			<div id="home">
+			
+				<h1>Hover Effect with CSS</h1>
+					<p>
+						So basically on this tutorial all we have to do is manipulate an image behaviour by hovering it.
+						This tutorial is very simple and very amusing I learned this from this site: 
+						<a href="http://fivera.net/	">Fivera.net</a>, they also have some other tutorials on how to create your website to become even more interactive,
+						though I only want to focus on this <em>hover</em> effect. So lets get started!
+					</p>
+			
+				<div>
+						<h4>Prepare the followings:</h4>	
+						<span>For HTML</span>
+							<ol>
+								<li>Image that can be use.</li>
+								<li>And of course this tag:<code>&lt;img src="http://link to the image"&gt;</code><br /></li>
+							</ol>				
+								
+							<span>For CSS	it can either be external or internal<br />	</span>
+							<ol>	
+								<li><code>img {here is the code of the initial state of the image}</code> and;</li>
+								<li><code>img:hover { here is the code of the hover state of the image}</code></li>
+							</ol>
+				</div>
+				<div>
+					<h2>Shrink Image on Hover</h2>
+						<div>
+							<p class="tcode">HTML codes:<br />
+								<code >
+									&lt;div style="text-align:center"><br />
+									&lt;img src="../images/s1.png" alt="fivera" width="200" height="200">
+								</code>
+							</p>
+						</div>
+						<div>
+							<p class="tcode">CSS codes:<br />
+								<code>
+									img {<br />
+  										height: 200px;<br />
+  										width: 200px;<br /><br />
+ 
+ 									    -webkit-transition: all 1s ease;<br />
+     									-moz-transition: all 1s ease;<br />
+       									-o-transition: all 1s ease;<br />
+      									-ms-transition: all 1s ease;<br />
+          								transition: all 1s ease;<br />
+									}<br /><br />
+
+									img:hover {<br />
+  										width: 220px;<br />
+  										height: 220px;<br />
+									}
+								</code>
+							</p>	
+						</div>
+						<fieldset>
+							<h2>RESULT</h2>
+							<img src="../images/s6.png" id="sample01" alt="tutorial sample image"/>
+						</fieldset>
+				</div>	
+				<hr />
+			
+			<footer>&copy; 2014 E.Baltazar</footer>
+			</div>
+		<script src="script.js"></script>
+	</body>
+</html>

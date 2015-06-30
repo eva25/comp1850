@@ -1,0 +1,181 @@
+/*
+Assignment.CSS
+
+*/
+
+/*Universal css - means it applies on all the pages of the created assignment*/
+
+body{
+	background-color: #ece8e5; 
+	margin-left:13%;
+	margin-top:2%;
+	background-image: url('../images/background.png');
+	background-size: 100% 150%;
+	background-repeat: no-repeat;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+header{
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	width:85%;
+	background-color:#FFFFE0;	
+	text-align:center;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size:50px;
+}
+
+#navigation{
+	width: 943px;
+    height: 50%;
+    font-size: 10px;
+    font-family: Papyrus, fantasy;
+    font-weight: bold;
+    text-align: center;
+    background: #455868;  
+}
+
+#navigation ul{
+	height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+#navigation li{
+	display: inline; 
+	padding:10px; 
+	margin:5px;
+	cursor:pointer;
+}
+
+#navigation a{
+	color: #fff;  
+    display: inline-block;  
+    width: 100px;  
+    text-align: center;  
+    text-decoration: none;  
+    line-height: 40px;  
+    text-shadow: 1px 1px 0px #283744;  
+   
+}
+
+#home{
+	border-style:solid;
+	border-width:2px;
+	border-color:black;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	width: 85%;
+	height: 50%;
+	background-color:#FFFFE0;
+}
+
+h1{
+	text-align:center;
+	text-decoration:underline;
+}
+
+h2{
+	text-indent:1%;
+	text-decoration:underline;
+}
+
+h3{
+	text-indent:3%;
+	text-decoration:underline;
+}
+
+h4{
+	text-indent:4%;
+}
+
+p{
+	text-indent:5%;
+	text-align:justify;
+	text-justify:inter-word;
+	padding:9px;
+}
+
+span{
+	margin-left:2%;
+	font-weight:bold
+}
+
+footer{
+	text-align:center;
+	color:pink;
+}
+
+/*tags.html css*/
+
+.code{
+	text-indent:5%;
+}
+
+/*resources.html css*/
+
+table{
+	text-align:center;
+	margin:auto;
+}
+
+.mini_container{
+	border-style: solid;
+	border-color: blue;
+	border-width: 2px;
+}
+
+.mini_table td{
+	border-style: solid;
+	border-color: gray;
+	border-radius:10px;
+}
+
+#container{
+	width:80%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2%;
+	margin-bottom:2%;
+	border-style: solid;
+	border-color:black;
+	border-width:3px;
+	border-radius:8px;
+}
+
+img{
+	width:auto;
+	height:auto;
+	margin:auto;
+	padding:10px;
+}
+
+/*tutorials.html css*/
+
+.tcode{
+	margin-left:5%;
+	border-style:dashed;
+	border-color:black;
+	width:90%;
+}
+
+#sample01{
+	margin-left:40%;
+	height: 200px;
+	width: 200px;
+ 
+  	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      	-ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+#sample01:hover {
+  	width: 175px;
+  	height: 175px;
+}

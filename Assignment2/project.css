@@ -1,0 +1,190 @@
+body{
+	/*background-image:url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100em 700em;*/	
+	background-color:#f0f0ee;
+	
+}
+
+/*id used for the project_proposal and the web_usability*/
+#container{
+	border: 2px solid #6A1A6B;
+	box-shadow: 8px 8px 4px #888888;
+	margin-bottom: 30px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	width: 800px;
+	position: absolute;
+	top:7em;
+	left: 17em;
+	background-color:#A9DBF4;
+}
+
+
+#head_nav ul{/*main navigation located on the upper area*/
+	list-style-type: none;
+	position:absolute;
+	left:17em;
+	top:2.5em;
+	border-style:double;
+	border-color:#6A1A6B;
+	background-color:#C7E9F9;
+	color: #2B2B2B;
+	padding: 1em;
+	
+	width: 47.9em;
+	height: 1em;
+	
+}
+
+#head_nav li{
+	display: inline;
+	padding: 0px 70px 0px 50px;
+	border-right: 1px solid #6A1A6B;
+	
+}
+
+#head_nav a{
+	text-align: center;
+	text-decoration:none;	
+}
+
+#head_nav a:hover { 
+ 	width: 47.9em;
+	height: 1em;
+	color:#2B2B2B;
+}
+
+
+#side_nav ul{/*mini navigation located on the left area, it changes its content according to the sites content*/
+	list-style-type: none;
+	position:absolute;
+	top:6.01em;
+	left:5em;
+	padding:1em 2em 1em 1em;
+	border-style:double;
+	border-color:#6A1A6B;
+	box-shadow: 1px 1px  1px 3px silver;
+	border-bottom-left-radius:10px;
+	background-color:#C7E9F9;
+	color: #2B2B2B;
+	
+}
+
+#side_nav li{
+	border-style:solid;
+	border-color:#6A1A6B;
+	margin:1px;
+	box-shadow: 1px 1px  1px 3px #C7E9F9;
+	border-radius:4px;	
+}
+
+#side_nav a{
+	padding:1em 0em 1em 0em;
+	display:block;
+	width: 8em;	
+	text-align: center;
+	background:#f0f0ee;
+	text-decoration:none;
+}
+
+#side_nav a:hover { 
+    background:#A9DBF4;
+    color:#2B2B2B;
+}
+
+#top{/*an image the stays on the right side that brings you on top when you reach down the site for an easier navigation*/
+	position:fixed;
+	right:15em;
+	top:25em;
+}
+
+#w3c_img{
+	float:left;
+	margin: 0px 20px 0px 10px;
+}
+
+#w3c_home{
+	margin: 2px 2px 0px 80px;
+	border: 2px solid black;
+}
+
+#try_it{
+	border: 2px solid black;
+}
+
+#fb_img{
+	margin: 2px;
+	border: 2px solid black;
+}
+
+.mini_container{
+	width:700px;
+	margin: 5px 8px 5px 5px;
+	padding-top:5px;
+}
+
+/*css design for the 10 things to avoid
+	counter-reset, content, counter-increment is used for the numbering.
+*/
+.list {
+	counter-reset: decimal;
+}
+.list dt:before {
+	content: counter(decimal);
+	counter-increment: decimal;
+}
+
+.list dt{
+	font-weight:bold;
+	
+}
+
+dd{
+	text-align:justify;
+}
+
+
+h1{
+	border:2px solid #6A1A6B;
+	border-top-left-radius:10px;
+	width: 8.8em;
+	height:1.5em;
+	position:relative;
+	left:3.6em;
+	top:2.12em;
+	font-size: 20px;
+	text-align: center;
+	padding:15px 5px 5px 4px;
+	background-color:#A9DBF4;
+	
+}
+
+h2{
+	text-indent: 30px;
+	color:#2B2B2B;
+}
+
+h3{
+	text-indent: 40px;
+	color:#2B2B2B;
+}
+
+p{
+	text-indent: 50px;
+	text-align: justify;
+	width: 700px;
+}
+
+tr, td{
+	border-style: solid;
+	border-color: purple;
+	position:relative;
+	left: 20px;
+}
+
+footer{
+	text-align:center;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
